@@ -52,8 +52,8 @@ Usage example
 Create, train and sample a network as in the publication.
 ~~~~
 (reinvent-gdb13) $> mkdir gdb13_models
-(reinvent-gdb13) $> ./create_model.py -i trained_models/training_set.smi -o gdb13.1M.model.empty
-(reinvent-gdb13) $> ./train_model.py -i gdb.13.1M.model.empty -o gdb13_models/model -s trained_models/training_set.smi --num-epochs=200 --lrcs=0.9772 --save-every-n-epochs=1
+(reinvent-gdb13) $> ./create_model.py -i training_set.smi -o gdb13.1M.model.empty
+(reinvent-gdb13) $> ./train_model.py -i gdb.13.1M.model.empty -o gdb13_models/model -s training_set.smi --num-epochs=200 --lrcs=0.9772 --save-every-n-epochs=1
 # (... wait 24-48h ...)
 (reinvent-gdb13) $> ./sample_from_model.py gdb13_models/model.70 -n 1000000 --with-likelihood -o sample.smi
 ~~~~
