@@ -1,0 +1,12 @@
+name: reinvent-gdb13
+channels:
+  - pytorch
+  - defaults
+  - rdkit
+dependencies:
+  - python=3.6
+  - rdkit=2018.03.4.0
+  - pytorch=0.4.1
+  - cuda91
+  - tqdm=4.19.4
+  - py-boost=1.65
