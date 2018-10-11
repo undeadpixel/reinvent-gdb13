@@ -3,7 +3,7 @@ Implementation of the RNN model used in "Exploring the GDB-13 chemical space usi
 
 This code allows to create, train and sample RNN with the architecture described in:
 
-HERE PUBLICATION
+[Exploring the GDB-13 Chemical Space Using Deep Generative Models](https://chemrxiv.org/articles/Exploring_the_GDB-13_Chemical_Space_Using_Deep_Generative_Models/7172849)
 
 Also find an already trained model with a 1M random sample of GDB-13 in the `trained_models` folder.
 
