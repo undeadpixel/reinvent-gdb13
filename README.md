@@ -2,6 +2,8 @@ Implementation of the RNN model used in "Exploring the GDB-13 chemical space usi
 ======================================================================================================
 
 > **NOTE:** This repository has been archived because a newer one has been created with additional features. The code here is left only to complement the [previously published article](https://chemrxiv.org/articles/Exploring_the_GDB-13_Chemical_Space_Using_Deep_Generative_Models/7172849).
+>
+> Please have a look at [undeadpixel/reinvent-randomized](https://github.com/undeadpixel/reinvent-randomized) for the improved software.
 
 This code allows to create, train and sample RNN with the architecture described in:
 
