@@ -1,6 +1,8 @@
 Implementation of the RNN model used in "Exploring the GDB-13 chemical space using deep generative models"
 ======================================================================================================
 
+> **NOTE:** This repository has been archived because a newer one has been created with additional features. The code here is left only to complement the [previously published article](https://chemrxiv.org/articles/Exploring_the_GDB-13_Chemical_Space_Using_Deep_Generative_Models/7172849).
+
 This code allows to create, train and sample RNN with the architecture described in:
 
 [Exploring the GDB-13 Chemical Space Using Deep Generative Models](https://chemrxiv.org/articles/Exploring_the_GDB-13_Chemical_Space_Using_Deep_Generative_Models/7172849)
